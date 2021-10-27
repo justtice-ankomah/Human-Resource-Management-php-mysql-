@@ -1,0 +1,39 @@
+
+.names{
+    width:80px;
+}
+
+.position{
+    width:90px;
+}
+
+.id{
+    width:40px;
+}
+
+input{
+ 
+    text-align: center;
+    background:transparent;
+    border: none;
+    outline: none;
+   
+    font-size: 15px;
+    margin-bottom:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+.checkbox{
+
+    margin-left:30px;
+
+}
+
+#save{
+    background-color: blue;
+}
+
+.ro{
+    display: flex;
+    justify-content: space-around;
+}

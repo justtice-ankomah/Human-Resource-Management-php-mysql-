@@ -1,0 +1,130 @@
+/*background images */
+body,html{
+	background: url(../images/two.jpg) no-repeat center center fixed;
+	background-size:cover;
+	height: 100%;
+	overflow: scroll;
+	animation:change 7s infinite both;
+	
+	}
+
+/*background animation */
+	@keyframes change{
+		0%{    background-image: url("../images/two.jpg");
+	
+		}
+		30%{
+			background-image: url("../images/one.jpg");
+		}
+		60%{
+			background-image: url("../images/three.jpg");
+		}
+		90%{
+			background-image: url("../images/four.jpg");
+		}
+	}
+
+	
+
+/* top navigation bar styles*/
+.container{
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+	height:40px;
+	width:100%;
+	color: WHITE;
+	
+	
+	}
+
+#wraper{
+	background-color: black;
+
+}
+
+#link,logo{
+	color: white;
+	position: relative;
+	top: 7px;
+	font-weight:745;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#link:hover{
+	background-color: red;
+}
+
+#logo{
+	width: 100%;
+	height:100%;
+	
+
+}
+
+
+/*form style */
+	form{
+		background-color:black;
+		width: 50%;
+		position:relative;
+		top: 100px;
+		opacity: 0.9;
+		height: 500px;
+	  }
+	  
+	  input{
+		width:50%;
+	
+		text-align: center;
+		background:transparent;
+		border: none;
+		outline: none;
+		border-bottom: 1px solid gray;
+		color:#fff;
+		font-size: 15px;
+		margin-bottom:20px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	  }
+
+	  #form_image{
+		  width:15%;
+		  height: 40%;
+		  border-radius: 60%;
+	  }
+	  #submit{
+		color: black;
+		background-color: white;
+		width: 60%;
+		font-weight:bold;
+		font-size: 20px;
+		height: 30px;
+		}
+
+		#submit:hover{
+			background-color:red;
+		  
+		  }
+	  
+	  
+@media(max-width:368px){
+	.container{
+		flex-direction: column;
+		align-items: center;
+		height: 100%;
+	}
+	
+}
+
+
+
+  @media (max-width:786px){
+ form{
+      position: relative;
+      top: 100px;
+      height:100%;
+	  width: 100%;
+	
+    }
+  }
+

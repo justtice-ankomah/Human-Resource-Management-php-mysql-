@@ -1,0 +1,42 @@
+
+	
+
+/* top navigation bar styles*/
+.container{
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+	height:40px;
+	color: WHITE;
+	}
+
+#wraper{
+	background-color: black;
+}
+
+#link,logo{
+	color: white;
+	position: relative;
+	top: 7px;
+	font-weight:745;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#link:hover{
+	background-color: red;
+}
+
+#logo{
+	width: 100%;
+	height:100%;
+	
+
+}
+
+@media(max-width:368px){
+	.container{
+		flex-direction: column;
+		align-items: center;
+		height: 200px;
+	}
+}
